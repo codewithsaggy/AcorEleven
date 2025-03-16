@@ -1,10 +1,10 @@
 import React from 'react';
-import contact_map from '../images/map-imgs.jpg';
+// import contact_map from '../images/map-imgs.jpg';
 import SEO from "./SEO";
 import GoogleMap from './Googlemap';
 import phone from '../images/phone.svg';
 import mail from '../images/email.svg';
-import location from '../images/location.svg';
+// import location from '../images/location.svg';
 
 function Contact() {
   return (

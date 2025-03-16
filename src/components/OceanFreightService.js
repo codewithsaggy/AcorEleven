@@ -29,7 +29,7 @@ function OceanFreightService() {
                         <p className='font-family-poppins text-gray ocean-freight-p'>Ocean freight is the cost effective method of transporting large volumes of goods over distant destinations. Ocean freight, commonly referred as Sea freight is the ideal mode for transporting heavy, bulky, and not  time-sensitive goods like- heavy machinery and defense equipment, etc.  There are two modes of transporting goods via ocean- FCL and LCL.</p>
                         </div>
                         <div className='col-lg-6 why-us-images'>
-                            <img src={serviceOceanFreight} alt='Image 1' className='serviceOceanFreight'/>
+                            <img src={serviceOceanFreight} alt="servicesocenfreight" className='serviceOceanFreight'/>
                         </div>
                     </div>
                 </div>

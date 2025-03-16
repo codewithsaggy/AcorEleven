@@ -218,7 +218,7 @@ function Navbar() {
           <div className="container">
             <div className="row align-items-center position-relative">
               <div className="site-logo">
-                <Link to="/" className="text-black"><span className="text-primary"><img src={logo}/></span></ Link>
+                <Link to="/" className="text-black"><span className="text-primary"><img src={logo} alt="sitelogo" /></span></ Link>
               </div>
               <div className="col-12">
                 <nav className="site-navigation text-right ml-auto " role="navigation">
@@ -234,7 +234,7 @@ function Navbar() {
                     </NavLink>
                   </li>
                   <li className="has-children">
-                    <a href="#" className="nav-link">Services</a>
+                    <a href="/" className="nav-link">Services</a>
                     <ul className="dropdown arrow-top">
                       <li>
                         <NavLink to="/courier-services" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
@@ -289,12 +289,12 @@ function Navbar() {
                       Blog
                     </NavLink>
                   </li>
-                    <li><a taget="_blank" href='#' className="navm-btn" onClick={handleOpenModal}>Login</a></li>
+                    <li><a taget="_blank" href='/' className="navm-btn" onClick={handleOpenModal}>Login</a></li>
                     <li><a taget="_blank" href="tel:+1849721548" className="navm-btn clr-red">+18-4972-1548</a></li>
                   </ul>
                 </nav>
               </div>
-              <div className="toggle-button d-inline-block d-lg-none"><a href="#" className="site-menu-toggle py-5 js-menu-toggle text-black" onClick={toggleMenu}><span className="icon-menu h2 text-black"></span></a></div>
+              <div className="toggle-button d-inline-block d-lg-none"><a href="/" className="site-menu-toggle py-5 js-menu-toggle text-black" onClick={toggleMenu}><span className="icon-menu h2 text-black"></span></a></div>
 
             </div>
           </div>
@@ -375,7 +375,7 @@ function Navbar() {
   </div>
   <div className="mb-3">
     <p className="login-optn">
-      Didn’t get code? <a href="#" onClick={sendOtp}>Resend</a>
+      Didn’t get code? <a href="/" onClick={sendOtp}>Resend</a>
     </p>
   </div>
   <button
@@ -386,7 +386,7 @@ function Navbar() {
   </button>
   <div className="mt-2">
     <p className="login-optn">
-      Not registered yet? <a>Create an Account</a>
+      Not registered yet? <a href="/">Create an Account</a>
     </p>
   </div>
 </form>
@@ -406,11 +406,11 @@ function Navbar() {
                                       <input type="text" className="form-control" id="OTPInput" placeholder="" required />
                                     </div>
                                     <div className="mb-3">
-                                      <p className='login-optn'>Didn’t get code? <a href='#'>Resend</a></p>
+                                      <p className='login-optn'>Didn’t get code? <a href='/'>Resend</a></p>
                                     </div>
                                     <button type="submit" className="btn site-btn w-100 mt-3">Login</button>
                                     <div className="mt-2">
-                                      <p className='login-optn'>Not registered yet?  <a href='#'>Create an Account</a></p>
+                                      <p className='login-optn'>Not registered yet?  <a href='/'>Create an Account</a></p>
                                     </div>
                                   </form>
                                 </div>

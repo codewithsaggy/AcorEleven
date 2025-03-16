@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.hero-section {
+  background: url('images/container-cargo-ship-sea.png') no-repeat center center/cover;
+  min-height: 100vh;
+  position: relative;
+}
+.hero-section .tracking-form {
+  margin-top: 2rem;
+}
+.media-logos img {
+  max-height: 50px;
+}

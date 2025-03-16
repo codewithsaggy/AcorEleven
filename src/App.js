@@ -20,6 +20,7 @@ import LoginForm from './components/loginregisterform';
 
 function App() {
   return (
+    <>
     <BrowserRouter>
       <div>
         <Navbar />
@@ -42,6 +43,7 @@ function App() {
         <Footer />
       </div>
     </BrowserRouter>
+    </>
   );
 }
 

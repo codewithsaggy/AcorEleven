@@ -5,7 +5,7 @@ import SEO from "./SEO";
 function About() {
   return (
         <>
-        <SEO title="Acor Eleven - Air Freight Services"  description="" />
+        <SEO title="Acor Eleven - About Us"  description="" />
             <div className="ftco-blocks-cover-1 animate__animated animate__fadeIn">
                 <div className="ftco-cover-1 ftco-about overlay">
                     <div className="container">
